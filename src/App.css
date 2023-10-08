@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  background-color: #1f2430;
+  color: white;
+  margin-top: 20px;
+}
+
+h1{
+  color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0;
+}
+
+.logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+}
+
+.Aplicaciòn-Tareas{
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #323b4f;
+  padding: 75px;
+  margin: 10px;
+  border-radius: 25px;
+}
